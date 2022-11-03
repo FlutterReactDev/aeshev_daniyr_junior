@@ -1,0 +1,24 @@
+table {
+  border: 2px solid forestgreen;
+  width: 800px;
+  height: 200px;
+}
+.App {
+  display: flex; gap: 40px;
+}
+  
+th {
+  border-bottom: 1px solid black;
+}
+  
+td {
+  text-align: center;
+}
+
+.month {
+  margin-bottom: 2px;
+}
+
+.total {
+  font-size: 30px;
+}

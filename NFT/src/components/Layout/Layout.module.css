@@ -1,0 +1,17 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 70px;
+    align-items: center;
+    background-color: var(--color-blue);
+}
+
+.Github svg{
+    width: 50px;
+    height: 50px;
+}
+
+.Logo {
+    color: var(--color-white);
+}

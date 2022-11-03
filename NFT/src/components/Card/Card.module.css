@@ -1,0 +1,38 @@
+.Card {
+  width: 420px;
+  transition: 0.3s all;
+}
+.Card:hover {
+  transform: scale(1.05);
+}
+.Card img {
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+}
+
+.Footer {
+  box-shadow: rgb(0 0 0 / 20%) 0px 4px 8px;
+  border-bottom-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  padding: 20px;
+  margin-top: -7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Name {
+  color: var(--color-blue);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.Button {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+}

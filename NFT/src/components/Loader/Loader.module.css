@@ -1,0 +1,52 @@
+.Loader {
+    position: fixed;
+    width: 120px;
+    height: 120px;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+   
+}
+
+
+
+.Card {
+  background-color: #0c55fb;
+  height: 50px;
+  width: 40px;
+  margin-bottom: 2px;
+  position: absolute;
+  z-index: 3;
+
+  box-shadow: 0 5px 14px 0 rgba(1, 1, 1, 0.2);
+  border-radius: 12px 0 12px 0;
+  transform: skewX(-12deg);
+  animation: float 1.5s infinite ease-in-out;
+}
+.Card:nth-child(2) {
+  left: 20px;
+  top: 15px;
+  z-index: 2;
+  background-color: #0092ff;
+  animation: float 1.5s infinite ease-in-out;
+  animation-delay: 0.1s;
+}
+.Card:nth-child(3) {
+  left: 40px;
+  top: 30px;
+  z-index: 1;
+  background-color: #94c5ff;
+  animation: float 1.5s infinite ease-in-out;
+  animation-delay: 0.2s;
+}
+@keyframes float {
+    0% {
+      transform: skew(-12deg) translateY(0);
+    }
+    50% {
+      transform: skew(-12deg ) translateY(20px);
+    }
+    100% {
+      transform: skew(-12deg) translateY(0);
+    }
+  }
